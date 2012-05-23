@@ -1,0 +1,6 @@
+body {
+  width: 100%; }
+  body div#game-board-container {
+    margin: 20px auto;
+    width: 80%;
+    height: 80%; }
