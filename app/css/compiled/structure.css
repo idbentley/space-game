@@ -2,5 +2,9 @@ body {
   width: 100%; }
   body div#game-board-container {
     margin: 20px auto;
-    width: 80%;
-    height: 80%; }
+    width: 1000px;
+    height: 800px; }
+
+div.small-sprite {
+  height: 20px;
+  width: 15px; }
