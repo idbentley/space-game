@@ -27,22 +27,22 @@ then point your browser to `localhost:3000`.  And you're online!
 
 The SpaceGame engine is being developed in javascript.  The directory structure is defined as follows:
 
-.
-├── app
-│   ├── css
-│   │   ├── compiled
-│   │   ├── reset.css
-│   │   └── sass
-│   ├── images
-│   │   └── sprite
-│   └── js
-│       ├── event
-│       ├── library
-│       ├── object
-│       └── view
-│           └── engine
-├── README
-└── test_server.rb
+     .
+     ├── app
+     │   ├── css
+     │   │   ├── compiled
+     │   │   ├── reset.css
+     │   │   └── sass
+     │   ├── images
+     │   │   └── sprite
+     │   └── js
+     │       ├── event
+     │       ├── library
+     │       ├── object
+     │       └── view
+     │           └── engine
+     ├── README
+     └── test_server.rb
 
  * app/css/sass directory holds all style assets in a pre-compiled 'sass' format.  Run the `sass` command with the `--watch` modifier to run the sass compiler in watch mode.  Any changes will be compiled properly.  `.css` files should *never* be modified directly.
 
@@ -55,19 +55,3 @@ The SpaceGame engine is being developed in javascript.  The directory structure 
  * app/js/object holds entity definitions.  Also, the basic physics engine is here in `physicalObject.js`.
  * app/js/view holds the driver code that makes the game go!
  * app/js/view/engine holds any specific purpose rendering code.
-
-
-# TODO:
- * setup persisten connections to application server.  Consider: http://dev.w3.org/html5/eventsource/, longPolling. - http://en.wikipedia.org/wiki/Push_technology.
- * develop a networkEngine.
- * expand manualEngine to address shooting.
- * sometimes javascript engine seems to eat all cpu?
- * fix paralax engine in app/js/view/engine, and apply to world.js
- * get better more discernable backgrounds.
- * add static objects.
- * figure out a game field specification format.
- * game field editor
- * tiled backgrounds
- * collision detection
- * damage tracking
- * movement sprites.
